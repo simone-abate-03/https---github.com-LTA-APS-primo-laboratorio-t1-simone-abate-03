@@ -1,0 +1,51 @@
+SELEZIONE DEL CASO D'USO           DESCRIZIONE
+
+Inserisci Contatto                 Inserire contatto all'interno della rubrica
+Portata                            Rubrica
+Livello                            Obbiettivo utente
+Attore Primario                    Utente
+Parti Interessate e Interessi      Utente: inserire il contatto all'interno della rubrica
+Pre-condizioni                     1)Il contatto da inserire non è presente in rubrica
+                                   2)La rubrica non è piena
+Garanzia di successo               Viene inserito il contatto nella rubrica
+Scenario principale di successo    1)L'utente vuole inserire un contatto 
+                                   2)L'utente mette tutte le informazioni richieste 
+                                   3)Attraverso il caso d'uso della Ricerca di un Contatto viene verificata la non presenza del
+                                   contatto da inserire
+                                   4)L'utente conferma l'operazione
+                                   5)Il sistema aggiunge il contatto e ne da conferma all'utente
+Estensioni                         1)Il numero massimo di contatti inseribili è stato raggiunto
+                                   2)L'utente inserisce un contatto con un nickname già presente
+                                   3)L'utente inserisce i dati in modo sbagliato e quindi deve utilizzare
+                                   la formattazione corretta                                   
+Requisiti speciali                 La rubrica inserisce entro un secondo il nuovo contatto
+Elenco delle variabili 
+tecnologiche e dei dati            -           
+Frequenza di ripetizione           Dipende dal contesto, può inserirne 100 (rubrica vuota) o può inserirne di più se
+                                   ogni volta dei contatti vengono rimossi
+Varie                              -
+
+SELEZIONE DEL CASO D'USO           DESCRIZIONE
+
+Rimuovi contatto                   Rimuovere il contatto dalla rubrica
+Portata                            Rubrica
+Livello                            Obbiettivo utente
+Attore Primario                    Utente
+Parti Interessate e Interessi      Utente: rimuovere il contatto all'interno della rubrica
+Pre-condizioni                     1)Il contatto da rimuovere è presente in rubrica
+                                   2)Il contatto da rimuovere non è protetto
+Garanzia di successo               Viene rimosso il contatto dalla rubrica
+Scenario principale di sucesso     1)L'utente vuole rimuovere un contatto
+                                   2)L'utente identifica il contatto da rimuovere
+                                   3)Attraverso il caso d'uso della Ricerca di un Contatto viene verificata la presenza
+                                   del contatto da elimare
+                                   4)Si verifica che il contatto non sia protetto
+                                   5)L'utente conferma l'operazione
+                                   6)Il sistema rimuove il contatto e ne da conferma all'utente
+Estensioni                         1)Il contatto da eliminare è protetto
+                                   2)Il contatto da eliminare non è presente in rubrica
+Requisiti speciali                 La cancellazione del contatto deve avvenire in un secondo
+Elenco delle variabili 
+tecnologiche e dei dati            -
+Frequenza di ripetizione           L'utente può rimuovere contatti finchè la rubrica non è vuota
+Varie                              - 
